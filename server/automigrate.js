@@ -1,5 +1,5 @@
 /*
-    USE THIS HANDY FILE TO AUTO MIGRATE (DESTROY AND RECREATE) THE MODELS. USE FOR DEV ONLY!!
+    USE THIS HANDY FILE TO AUTO MIGRATE (DESTROY AND RECREATE) THE MODELS. 
 */
 var server = require('./server');
 var ds = server.dataSources.pgDB;
