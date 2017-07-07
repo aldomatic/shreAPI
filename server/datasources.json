@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "pgDB": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://postgres:somecoolpassword@localhost:5432/loobback_db",
+    "database": "loobback_db",
+    "password": "somecoolpassword",
+    "name": "pgDB",
+    "connector": "postgresql",
+    "user": "postgres"
+  }
+}
