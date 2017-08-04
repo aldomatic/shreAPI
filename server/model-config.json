@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "pgDB"
+    "dataSource": "local_db"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -36,7 +36,7 @@
     "public": false
   },
   "CoffeeShop": {
-    "dataSource": "pgDB",
+    "dataSource": "local_db",
     "public": true
   }
 }

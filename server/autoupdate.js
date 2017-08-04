@@ -1,8 +1,8 @@
 /*
-    USE THIS TO UPDATE EXISTING MODELS 
+    USE THIS TO UPDATE EXISTING MODELS
 */
 var server = require('./server');
-var ds = server.dataSources.pgDB;
+var ds = server.dataSources.local_db;
 var lbTables = ['CoffeeShop'];
 ds.autoupdate(lbTables, function(er, result) {
   if (er) {
