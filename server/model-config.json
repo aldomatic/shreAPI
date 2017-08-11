@@ -14,7 +14,7 @@
     ]
   },
   "User": {
-    "dataSource": "local_db"
+    "dataSource": "dev_db"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -36,7 +36,7 @@
     "public": false
   },
   "CoffeeShop": {
-    "dataSource": "local_db",
+    "dataSource": "dev_db",
     "public": true
   }
 }
